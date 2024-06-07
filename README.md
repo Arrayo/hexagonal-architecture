@@ -1,46 +1,121 @@
-# Getting Started with Create React App
+# Hexagonal Architecture React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React application with a hexagonal architecture.
+
+## Introduction
+
+This project demonstrates the implementation of Hexagonal Architecture (also known as Ports and Adapters Architecture) in a React application. It showcases how to build maintainable and testable applications by decoupling the business logic from external systems.
+
+## Features
+
+- Clear separation of concerns
+- Easy to test and maintain
+- Extensible architecture
+- Supports integration with various services and repositories
+
+## Project Structure
+
+```plaintext
+└── 📁src
+    └── 📁components
+        └── 📁post
+            └── 📁CreatePostForm
+                └── CreatePostForm.css
+                └── CreatePostForm.tsx
+                └── index.ts
+            └── 📁PostItem
+                └── index.tsx
+                └── PostItem.css
+                └── PostItem.tsx
+        └── 📁user
+            └── 📁CreateUserForm
+                └── CreateUserForm.css
+                └── CreateUserForm.tsx
+                └── index.ts
+    └── 📁hooks
+        └── index.ts
+        └── useCreateUser.test.ts
+        └── useCreateUser.ts
+        └── usePost.test.ts
+        └── usePost.ts
+        └── usePostActions.test.ts
+        └── usePostActions.ts
+    └── 📁pages
+        └── 📁App
+            └── App.css
+            └── App.tsx
+            └── index.ts
+    └── 📁post
+        └── 📁application
+            └── index.ts
+            └── PostService.test.ts
+            └── PostService.ts
+        └── 📁domain
+            └── index.ts
+            └── Post.ts
+        └── 📁infrastructure
+            └── index.ts
+            └── PostRepository.test.ts
+            └── PostRepository.ts
+    └── 📁user
+        └── 📁application
+            └── index.ts
+            └── UserService.test.ts
+            └── UserService.ts
+        └── 📁domain
+            └── index.ts
+            └── User.ts
+        └── 📁infrastructure
+            └── index.ts
+            └── UserRepository.test.ts
+            └── UserRepository.ts
+    └── index.css
+    └── index.tsx
+    └── react-app-env.d.ts
+    └── reportWebVitals.ts
+    └── setupTests.ts
+```
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs all the dependencies required for the project.
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm run test`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Runs the unit and integration tests using Jest. This includes tests for the services and repositories.
 
-### `npm run eject`
+## Running Tests with Cypress
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To run the Cypress end-to-end tests, you can use the following commands:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `npx cypress open`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This command opens the Cypress Test Runner. Use this for interactive testing.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `npx cypress run`
 
-## Learn More
+This command runs the Cypress tests in headless mode, which is useful for CI/CD environments.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This app is deployed on GitHub Pages. You can view it at:
+
+[Hexagonal Architecture App](https://arrayo.github.io/hexagonal-architecture/)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+

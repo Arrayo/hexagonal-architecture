@@ -1,0 +1,68 @@
+    .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    }
+    
+    .create-post-button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    }
+    
+    .create-post-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    }
+    
+    .create-post-button:hover:enabled {
+    background-color: #0056b3;
+    }
+    
+    .success-section {
+    text-align: center;
+    }
+    
+    .user-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    }
+    
+    .user-actions strong {
+    color: rgb(0, 0, 195);
+    margin-right: 5px;
+    }
+    
+    .user-actions svg {
+    cursor: pointer;
+    }
+    
+    .posts-section {
+    margin-top: 20px;
+    }
+    
+    .posts-section h3 {
+    margin-bottom: 10px;
+    }
+    
+    .connected-users {
+    margin-top: 20px;
+    }
+    
+    .connected-users h3 {
+    margin-bottom: 10px;
+    }
+    
+    .connected-users p {
+    font-size: 0.9em;
+    margin: 2px 0;
+    }
