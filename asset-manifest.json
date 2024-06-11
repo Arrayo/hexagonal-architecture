@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hexagonal-architecture/static/css/main.d807dfe5.css",
-    "main.js": "/hexagonal-architecture/static/js/main.96035dd5.js",
-    "static/js/453.951318a5.chunk.js": "/hexagonal-architecture/static/js/453.951318a5.chunk.js",
-    "index.html": "/hexagonal-architecture/index.html",
-    "main.d807dfe5.css.map": "/hexagonal-architecture/static/css/main.d807dfe5.css.map",
-    "main.96035dd5.js.map": "/hexagonal-architecture/static/js/main.96035dd5.js.map",
-    "453.951318a5.chunk.js.map": "/hexagonal-architecture/static/js/453.951318a5.chunk.js.map"
+    "main.css": "/hexagonalArchitecture/static/css/main.d807dfe5.css",
+    "main.js": "/hexagonalArchitecture/static/js/main.12eb4ea5.js",
+    "static/js/453.951318a5.chunk.js": "/hexagonalArchitecture/static/js/453.951318a5.chunk.js",
+    "index.html": "/hexagonalArchitecture/index.html",
+    "main.d807dfe5.css.map": "/hexagonalArchitecture/static/css/main.d807dfe5.css.map",
+    "main.12eb4ea5.js.map": "/hexagonalArchitecture/static/js/main.12eb4ea5.js.map",
+    "453.951318a5.chunk.js.map": "/hexagonalArchitecture/static/js/453.951318a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d807dfe5.css",
-    "static/js/main.96035dd5.js"
+    "static/js/main.12eb4ea5.js"
   ]
 }
