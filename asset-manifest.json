@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hexagonal-architecture/static/css/main.d807dfe5.css",
-    "main.js": "/hexagonal-architecture/static/js/main.96035dd5.js",
+    "main.css": "/hexagonal-architecture/static/css/main.923af9d0.css",
+    "main.js": "/hexagonal-architecture/static/js/main.9d84d0e4.js",
     "static/js/453.951318a5.chunk.js": "/hexagonal-architecture/static/js/453.951318a5.chunk.js",
     "index.html": "/hexagonal-architecture/index.html",
-    "main.d807dfe5.css.map": "/hexagonal-architecture/static/css/main.d807dfe5.css.map",
-    "main.96035dd5.js.map": "/hexagonal-architecture/static/js/main.96035dd5.js.map",
+    "main.923af9d0.css.map": "/hexagonal-architecture/static/css/main.923af9d0.css.map",
+    "main.9d84d0e4.js.map": "/hexagonal-architecture/static/js/main.9d84d0e4.js.map",
     "453.951318a5.chunk.js.map": "/hexagonal-architecture/static/js/453.951318a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d807dfe5.css",
-    "static/js/main.96035dd5.js"
+    "static/css/main.923af9d0.css",
+    "static/js/main.9d84d0e4.js"
   ]
 }
